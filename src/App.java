@@ -15,5 +15,12 @@ public class App {
         int rest2 = 8%3;
         System.out.println("Resten av 15/2 är "+rest1);
         System.out.println("Resten av 8/3 är "+rest2);
+
+        double dectal1=5.4;
+        double dectal2=3.2;
+        double decsumma=dectal1+dectal2;
+        double decdifferens=dectal1-dectal2;
+        System.out.println("Summan av dectal1+dectal2 ="+decsumma);
+        System.out.println("Differensen av dectal1-dectal2="+decdifferens);
     }
 }
